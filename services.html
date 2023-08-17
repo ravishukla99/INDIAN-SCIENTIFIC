@@ -15,8 +15,8 @@
 		integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<!--    === AOS animation CDN=== -->
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	 <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  -->
 
 	<!-- menu -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
@@ -50,11 +50,26 @@
 			<li class="nav-item nav-hover">
 				<a class="nav-link d-flex"  href="about_us.html">ABOUT <span class="px-2"> US</span></a>
 			</li>
-			<li class="nav-item nav-hover">
+			<!-- <li class="nav-item nav-hover">
 				<a class="nav-link " aria-current="page" href="services.html" style="color:orange ;">SERVICES</a>
+			</li> -->
+			
+			<li class="dropdown show  nav-item nav-hover">
+				<a class=" dropdown-toggle   nav-link d-flex" style="color:orange;" href="services.html" role="button" id="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  SERVICES
+				</a>
+			  
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				  <a class="dropdown-item" href="isi.html">Indian Standards Institute(ISI)</a>
+				  <a class="dropdown-item" href="fmcs.html">Foreign Manufacturers Certification Scheme (FMCS)</a>
+				  <a class="dropdown-item" href="fssai.html">Food Safety and Standards Authority of India (FSSAI)</a>
+				  <a class="dropdown-item" href="iso.html">International Organization for Standardization(ISO)</a>
+				</div>
 			</li>
 			<li class="nav-item ">
 				<a class="nav-link nav-hover" href="portfolio.html">PORTFOLIO</a>
+
+
 			</li>
 			<li class="nav-item ">
 				<a class="nav-link d-flex" href="contact_us.html">CONTACT <span class="px-2">US</span></a>
@@ -88,28 +103,28 @@
 	<div class="row justify-content-center text-center">
 		<h1 class="my-4" data-aos="fade-left">Our <span style="color:orange ;">Services</span></h1>
 		
-		<div class="card m-2 shado" style="width: 32rem;" data-aos="zoom-in">
+		<div class="card m-2 shado" style="width: 32rem;" >
 			<img class="card-img-top " src="./photo/service/pcsisimark s.jpg" alt="Card image cap">
 			<div class="card-body">
 			  <p style="text-align:justify;" >ISI Certification is the process of obtaining the ISI mark for any product that complies the Indian Standards. Various electrical appliances require mandatory ISI mark, such as Electric Iron, Room Heaters, Room AC, Electric Stoves, Freezers, Electric cables, and other products like UPVC Pipes, Rubber & Leather Footwears, Composite Cements, various acids, etc.<button style="padding: 0px 10px; border-radius: 5px "><a href="isi.html">Read...</a></button></p>
 			  
 			</div>
 		  </div>
-		  <div class="card m-2 shado" style="width: 32rem;" data-aos="zoom-in">
+		  <div class="card m-2 shado" style="width: 32rem;" >
 			<img class="card-img-top" src="./photo/service/FMCS F.jpeg" alt="Card image cap">
 			<div class="card-body">
 			  <p style="text-align:justify;" >FMCS Certificate in India from the FMCD department is meant for the manufacturing units located overseas, and which will undergo for factory audit to determine whether the manufacturer is complying with all the necessary requirements illustrated by BIS. It is also mandatory for foreign applicants to nominate Authorized Indian Representative (AIR).To understand all these steps, let's explore the parameters in detail .<button style="padding: 0px 10px; border-radius: 5px "><a href="fmcs.html">Read...</a></button></p>
 			  
 			</div>
 		  </div>
-		  <div class="card m-2 shado" style="width: 32rem;" data-aos="zoom-in">
+		  <div class="card m-2 shado" style="width: 32rem;" >
 			<img class="card-img-top" src="./photo/service/fssai s.jpg" alt="Card image cap">
 			<div class="card-body">
 			  <p style="text-align:justify;" >FSSAI, an acronym for Food Safety and Standards Authority of India that monitors and governs registered food business in India.FSSAI Logo will build consumer trust towards your food brand/products.Getting an FSSAI license is advantageous for opening a food business officially.<button style="padding: 0px 10px; border-radius: 5px "><a href="fssai.html">Read...</a></button></p>
 			  
 			</div>
 		  </div>
-		  <div class="card m-2 shado" style="width: 32rem;" data-aos="zoom-in">
+		  <div class="card m-2 shado" style="width: 32rem;" >
 			<img class="card-img-top" src="./photo/service/iso s.jpg" alt="Card image cap">
 			<div class="card-body">
 			  <p style="text-align:justify;" >ISO is International Organization for Standardization and ISO Certification provides the assurance that the product/service meets the requirement of the standard and mark quality. We can describe standards as the quality, safety, and efficacy of the products or services provided by enterprises..ISO provides many benefits like it improves product quality, business competence, builds credibility internationally, easy marketability, and lots more .<button style="padding: 0px 10px; border-radius: 5px "><a href="iso.html">Read...</a></button></p>
@@ -117,7 +132,7 @@
 			</div>
 		  </div>
 		  
-		  <p class="mt-5" data-aos="fade-left"> And Many more...</p>
+		  <p class="mt-5" > And Many more...</p>
 	</div>
 </section>
 
@@ -189,7 +204,9 @@
 										 
 										 </div>
 										 <div class="mt-4">
-										 <img src="./photo/social media/trustseal.png " width="111px">
+											<a href="https://www.indian-scientific.in/" target="_blank">
+												<img src="./photo/social media/trustseal.png " width="111px">
+												</a>
 										 </div>
 									 </div>
 
@@ -237,13 +254,13 @@
 </footer>
 <!-- Footer -->
 <!--   ==  Animation Script === -->
-<script>
+<!-- <script>
 	AOS.init({
 		duration: 1600,
 		offset: 110
 	})
 
-</script>
+</script> -->
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
